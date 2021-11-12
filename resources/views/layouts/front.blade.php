@@ -16,20 +16,22 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"> --}}
 
 
-    <link rel="shortcut icon" href="{{ asset('Front_End/img/photo_2021-10-29_03-17-28.jpg') }}" rel="stylesheet">
+
 
     <!-- Styles -->
  
     <link href="{{ asset('Front_End/css/bootstrap5.css') }}" rel="stylesheet">
     <link href="{{ asset('Front_End/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('Front_End/css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('Front_End/css/checkout.css') }}" rel="stylesheet">
-    <link href="{{ asset('Front_End/css/all.min.css') }}" rel="stylesheet">
     <link href="{{ asset('Front_End/css/owl.carousel.min.css') }}" rel="stylesheet">
     <link href="{{ asset('Front_End/css/owl.theme.default.min.css') }}" rel="stylesheet">
     <link href="{{ asset('Front_End/css/semantic.min.css') }}" rel="stylesheet">
     <link href="{{ asset('Front_End/css/dropdown.min.css') }}" rel="stylesheet">
-     
-      
+
+    {{-- font awesome --}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
 
@@ -42,12 +44,11 @@
                 @include('layouts.inc.front-footer')
  
     <script src="{{ asset('Front_End/js/jquery-3.6.0.min.js') }}"></script>
-        <script src="{{ asset('Front_End/js/bootstrap.bundle.min.js.js') }}"></script>
-        <script src="{{ asset('Front_End/js/all.min.js') }}"></script>
+        <script src="{{ asset('Front_End/js/bootstrap.bundle.min.js') }}"></script>
         <script src="{{ asset('Front_End/js/semantic.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('Front_End/js/custom.js') }}"></script>
         <script src="{{ asset('Front_End/js/owl.carousel.min.js') }}"></script>
-        
+      
          <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         
 

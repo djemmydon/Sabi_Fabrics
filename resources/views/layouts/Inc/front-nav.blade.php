@@ -103,14 +103,13 @@
      <a href="" ><h1 class="logo1">Logo</h1></a>
 
 
- 
 
   <div class="left">
     <div class="search-container">
       <label for="search" class="fas fa-search"></label>
       <input type="search"   name="" id="search">
     </div>
-    <div class="fas fa-shopping-cart p-1"></div><span class="cart-count">1</span>
+    <div class="fas fa-shopping-cart p-1"></div><span class="cart-count">52</span>
     <div class="fas fa-user"></div>
 
   </div>
@@ -161,3 +160,5 @@
     </ul>
   </div>
 </div>
+
+

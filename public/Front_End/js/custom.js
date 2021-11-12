@@ -64,7 +64,7 @@ $(document).ready(function () {
     })
 
     $('.fa-user').click(function () {
-        $('.navbar2').toggle('');
+        $('.navbar2').toggle();
   
     })
     $('.navbar2 a, .container, .container-fluid').click(function () {
@@ -73,5 +73,6 @@ $(document).ready(function () {
     })
 
 });
+
 
 

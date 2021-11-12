@@ -12,13 +12,7 @@
               
                 <div class="row">
 
-                          <div class="col-md-6  mb-4  ">
-                <select class="form-select" name="subcate_id" >
-                    @foreach ($subcate as $item)
-                        
-                                <option>{{$category->categori->name}}</option>
-                    @endforeach
-                </select>
+                   
 
                     </div>
 

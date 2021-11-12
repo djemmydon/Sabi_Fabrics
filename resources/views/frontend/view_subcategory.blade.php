@@ -11,6 +11,20 @@
 		</div>
 
 
+<div class="col md-3 container mb-3 pl-3" >
+  <div class="dropdown">
+  <button class="  dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <li><button class="dropdown-item" type="button"><a href="{{URL::current(). 'sort=newest'}}"> New Arrival</a></button></li>
+    <li><button class="dropdown-item" type="button"><a href="{{URL::current(). 'sort=tendings'}}"> Trendings</a></button></li>
+    <li><button class="dropdown-item" type="button"><a href="{{URL::current(). 'sort=price-asc'}}">Lowest Price</a></button></li>
+    <li><button class="dropdown-item" type="button"><a href="{{URL::current(). 'sort=price-desc'}}">Newest Price</a></button></li>
+  </ul>
+</div>
+</div>
+
 
 <div class="card-all">
    @foreach ($prod as $item)
